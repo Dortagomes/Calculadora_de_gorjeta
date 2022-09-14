@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="title">
+            <h1 >CALCULADORA DE GORJETA </h1>
+        </div>
+
+        <div>
+            <form class="tipsForms">
+                <label for="bill">
+                    <p>Quanto ficu a conta?</p>
+                </label>
+                <p>R$
+                    <input type="number" placeholder="100" name="bill" id="bill" class="formInput">
+                </p>
+                <label for="serviceQual">
+                    <p>Como foi seu serviço</p>
+
+                </label>
+                <p>
+                    <select name="serviceQual" id="serviceQual"  class="formSelet">
+                        <option disabled selected value="0"> -- escolha uma opçao</option>
+                        <option value="0.3">30% - Incrivel</option>
+                        <option value="0.2">20% - Bom</option>
+                        <option value="0.15">15% - Aceitavel</option>
+                        <option value="0.1">10% - ruim</option>
+                        <option value="0.05">05% - Pessimo</option>
+                    </select>
+                </p>
+                <label for="people">
+                    <p>Quantas pssoas vao dividir a conta</p>
+                </label>
+                <p>
+                    <input type="number" placeholder="1" name="people" id="people"  class="formInput"> Pessoa(s)
+                </p>
+
+                <button type="sumit" class="formSubimit">Calcular</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
